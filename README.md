@@ -4,11 +4,15 @@ Overview
 This is a simple SSH brute force tool written in Go. It attempts to connect to a specified SSH server using a list of provided usernames and passwords.
 
 Features
+
 •	Multithreaded password guessing
+
 •	Ability to specify username, target IP address, and port
+
 •	Uses a password list stored in a text file
 
 Requirements
+
 •	Go installed on your system
 
 Usage
@@ -26,8 +30,11 @@ Usage
 •	./ssh_brute_forcer
 
 5- Follow the on-screen prompts to enter the required information (username, target IP address, port, and password file path).
+
 •	Input the Username: admin
+
 •	Input the Target IP and Port (e.g., IP:PORT): 192.168.1.100:22
+
 •	Input the Password text file path (e.g., C:/path/to/your/passwords.txt): passwords.txt
 
 
